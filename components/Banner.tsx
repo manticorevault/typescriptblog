@@ -20,7 +20,7 @@ function Banner() {
                 <span className="underline decoration-4 decoration-[#F7AB0A]">
                     every developer's 
                 </span> {" "}
-                favorite Rust blog
+                favorite Rust blog!
             </h2>
         </div>
 
