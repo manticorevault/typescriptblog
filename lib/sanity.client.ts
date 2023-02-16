@@ -8,5 +8,5 @@ export const client = createClient({
     projectId,
     dataset,
     apiVersion,
-    useCdn: false //on prod change to true,
+    useCdn: true //on prod change to true,
 });

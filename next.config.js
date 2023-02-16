@@ -5,6 +5,10 @@ module.exports = {
     appDir: true
   },
   images: {
-    domains: ["media.tenor.com", "media.licdn.com"],
+    domains: [
+        "media.tenor.com", 
+        "media.licdn.com", 
+        "cdn.sanity.io"
+      ],
   }
 }
