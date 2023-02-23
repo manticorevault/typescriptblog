@@ -17,7 +17,7 @@ function Banner() {
 
             <h2 className="mt-5 md:mt-0">
                 Welcome to{" "}
-                <span className="underline decoration-4 decoration-[#F7AB0A]">
+                <span className="underline decoration-4 decoration-[#EFE335]">
                     every developer's 
                 </span> {" "}
                 favorite Rust blog!

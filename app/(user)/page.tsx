@@ -23,7 +23,7 @@ export default async function HomePage() {
                         text-center
                         text-lg 
                         animate-pulse
-                        text-[#F7AB0A]
+                        text-[#EFE335]
                         "
                     >
                         Loading Preview Data

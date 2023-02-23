@@ -8,7 +8,7 @@ function StudioNavbar(props: any) {
         <div className="flex items-center justify-between p-5">
             <Link 
                 href="/" 
-                className="text-[#F7AB0A]
+                className="text-[#EFE335]
                 flex 
                 items-center"
             >
@@ -16,7 +16,7 @@ function StudioNavbar(props: any) {
                 className="
                 h-6
                 w-6
-                text-[#F7AB0A]
+                text-[#EFE335]
                 mr-2"
             />
                 Go to the Blog!

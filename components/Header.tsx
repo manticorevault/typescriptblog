@@ -37,7 +37,7 @@ function Header() {
               text-sm
               md: text-base
               bg: gray-900
-              text-[#F7AB0A]
+              text-[#EFE335]
               flex
               items-center
               rounded-full
