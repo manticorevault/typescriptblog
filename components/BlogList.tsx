@@ -46,7 +46,7 @@ function BlogList({ posts }: Props) {
                     object-left
                     lg:object-center
                   "
-                  src={urlFor(post.mainImage).url()}
+                  src={urlFor(post.mainImage)?.url()}
                   alt={post.author.name}
                   fill
                 />

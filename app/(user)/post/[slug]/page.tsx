@@ -1,5 +1,5 @@
 import { groq } from 'next-sanity';
-import React from 'react'
+import React, { useEffect } from 'react'
 import { client } from '../../../../lib/sanity.client';
 import Image from 'next/image';
 import urlFor from '../../../../lib/urlFor';
@@ -32,12 +32,14 @@ async function Post({ params: { slug } }: Props) {
                                     justify-between">
                     <div className="absolute top-0 w-full h-full opacity-10
                                     blur-sm p-10">
-                        <Image
-                            className="object-cover object-center mx-auto"
-                            src={ urlFor(post.mainImage).url() }
-                            alt={ post.title }
-                            fill
-                        />
+                        { post.mainImage && (
+                            <Image
+                                className="object-cover object-center mx-auto"
+                                src={ urlFor(post.mainImage)?.url() }
+                                alt={ post.author.name } 
+                                fill
+                            />
+                        )}
                     </div>
 
                     <section className="p-5 bg-[#EFE335] w-full">
