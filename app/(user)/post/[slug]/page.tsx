@@ -26,11 +26,13 @@ async function Post({ params: { slug } }: Props) {
     const post: Post = await client.fetch(query, { slug });
 
     if (!post) {
-
-        return <div>
-            Probably this post doesn't exist!
+        return (
+        <div>
+            <h1>
+                This page probably doesn't exist!
+            </h1>
         </div>
-    }
+    )}
 
     return (
         <article className="px-10 pb-28">
