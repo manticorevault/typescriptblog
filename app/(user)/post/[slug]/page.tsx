@@ -5,6 +5,7 @@ import Image from 'next/image';
 import urlFor from '../../../../lib/urlFor';
 import { PortableText } from '@portabletext/react';
 import { RichTextComponent } from '../../../../components/RichTextComponent';
+import Link from 'next/link';
 
 type Props = {
     params: {
@@ -27,12 +28,17 @@ async function Post({ params: { slug } }: Props) {
 
     if (!post) {
         return (
-        <div>
-            <h1>
-                This page probably doesn't exist!
-            </h1>
-        </div>
-    )}
+            <div className="flex flex-col items-center justify-center bg-white">
+              <h1 className="text-5xl font-bold text-black mt-12 mb-8">404 - Page Not Found</h1>
+              <p className="text-2xl font-semibold text-black mb-8">
+                Sorry, we couldn't find the page you were looking for.
+              </p>
+              <Link href="/" className="bg-black text-yellow-400 py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors duration-300">
+                  Go back to homepage
+              </Link>
+            </div>
+        );
+    }
 
     return (
         <article className="px-10 pb-28">
