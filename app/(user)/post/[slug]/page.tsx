@@ -1,5 +1,5 @@
 import { groq } from 'next-sanity';
-import React, { useEffect } from 'react'
+import React from 'react'
 import { client } from '../../../../lib/sanity.client';
 import Image from 'next/image';
 import urlFor from '../../../../lib/urlFor';
@@ -24,6 +24,13 @@ async function Post({ params: { slug } }: Props) {
     `
 
     const post: Post = await client.fetch(query, { slug });
+
+    if (!post) {
+
+        return <div>
+            Probably this post doesn't exist!
+        </div>
+    }
 
     return (
         <article className="px-10 pb-28">
