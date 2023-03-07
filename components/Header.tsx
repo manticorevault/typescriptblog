@@ -16,7 +16,7 @@ function Header() {
         <div className="flex items-center space-x-2">
             <Link href="/">
                 <Image 
-                    src="https://media.tenor.com/jMdv7eVShFoAAAAC/squirrel-pixel.gif"
+                    src="https://cdn.sanity.io/images/l2bsu0a5/production/f1e34902f13ccc4d354ac220a025518644b2021c-400x400.png?w=2000&fit=max&auto=format"
                     width={ 50 }
                     className="rounded-full"
                     height={ 50 }

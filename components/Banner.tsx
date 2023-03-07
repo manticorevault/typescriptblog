@@ -16,16 +16,16 @@ function Banner() {
             </h1>
 
             <h2 className="mt-5 md:mt-0">
-                Welcome to{" "}
+                A Notebook for building{" "}
                 <span className="underline decoration-4 decoration-[#EFE335]">
-                    every developer's 
+                    faster, safer, and more efficient 
                 </span> {" "}
-                favorite Rust blog!
+                programming skills!
             </h2>
         </div>
 
         <p className="mt-5 md:mt-2 text-gray-400 max-w-sm">
-            Lorem Ipsum features | Lorem ipsum promises | Lorem ipsum weekly
+            Programming Concepts | Practical Projects | Competitve Programming | CyberSec Wargames 
         </p>
     </div>
   )

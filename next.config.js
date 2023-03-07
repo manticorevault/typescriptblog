@@ -8,7 +8,7 @@ module.exports = {
     domains: [
         "media.tenor.com", 
         "media.licdn.com", 
-        "cdn.sanity.io"
+        "cdn.sanity.io",
       ],
   }
 }
