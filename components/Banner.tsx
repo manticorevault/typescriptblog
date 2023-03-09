@@ -11,11 +11,11 @@ function Banner() {
                 mb-10
                 ">
         <div>
-            <h1 className="text-7xl">
+            <h1 className="text-7xl mb-5">
                 The Rusty Code
             </h1>
 
-            <h2 className="mt-5 md:mt-0">
+            <h2 className="mt-10 md:mt-0">
                 A Notebook for building{" "}
                 <span className="underline decoration-4 decoration-[#EFE335]">
                     faster, safer, and more efficient 
@@ -25,7 +25,7 @@ function Banner() {
         </div>
 
         <p className="mt-5 md:mt-2 text-gray-400 max-w-sm">
-            Programming Concepts | Practical Projects | Competitve Programming | CyberSec Wargames 
+            Programming Concepts | Practical Projects | Competitive Programming | CyberSec Wargames 
         </p>
     </div>
   )
