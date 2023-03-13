@@ -16,11 +16,11 @@ function Banner() {
             </h1>
 
             <h2 className="mt-10 md:mt-0">
-                A Notebook for building{" "}
+                A notebook for building{" "}
                 <span className="underline decoration-4 decoration-[#EFE335]">
                     faster, safer, and more efficient 
                 </span> {" "}
-                programming skills!
+                programming skills (with Rust)!
             </h2>
         </div>
 

@@ -29,6 +29,19 @@ function Header() {
         </div>
 
         <div>
+
+        </div>
+
+        <div className="flex items-center space-x-2">
+
+        <Link
+            href="/post/getting-started-or-the-objective-of-creating-this-blog"
+          >
+            <h1>
+              About
+            </h1>
+          </Link>
+
           <Link 
             href="https://github.com/manticorevault"
             className="
