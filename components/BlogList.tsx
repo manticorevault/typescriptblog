@@ -19,7 +19,7 @@ function BlogList({ posts }: Props) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-10 gap-y-16 pb-2">
         {posts.map((post) => (
-          <ClientSideRoute key={post._id} route={ `/post/${ post.slug.current }` }>
+          <ClientSideRoute key={post._id} route={ `/post/${ post.slug.current }`}>
             <div
               className="
                 flex
